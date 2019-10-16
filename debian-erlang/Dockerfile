@@ -1,8 +1,8 @@
 FROM debian:stretch-slim
 
-MAINTAINER Ricardo Echavarria <ricardo@bunsan.io>
+LABEL maintainer="Ivan D Barron <ivandavid77@gmail.com>"
 
-ENV LANG en_US.UTF-8
+ENV LANG C.UTF-8
 
 RUN apt-get update && \
     apt-get -y install wget gnupg2 && \
